@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315E25371B318EF700E3CA0B /* PIOLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E25361B318EF700E3CA0B /* PIOLoginViewController.swift */; };
+		31878D901B2FFA0000C777A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31878D8F1B2FFA0000C777A8 /* AppDelegate.swift */; };
+		31878D921B2FFA0000C777A8 /* PIORegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31878D911B2FFA0000C777A8 /* PIORegisterViewController.swift */; };
+		31878D951B2FFA0000C777A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31878D931B2FFA0000C777A8 /* Main.storyboard */; };
+		31878D971B2FFA0000C777A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31878D961B2FFA0000C777A8 /* Images.xcassets */; };
+		31878D9A1B2FFA0000C777A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31878D981B2FFA0000C777A8 /* LaunchScreen.xib */; };
+		31878DA61B2FFA0000C777A8 /* DurexSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31878DA51B2FFA0000C777A8 /* DurexSwiftTests.swift */; };
+		31878DB01B2FFB4600C777A8 /* General.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31878DAF1B2FFB4600C777A8 /* General.xcassets */; };
+		31878DB21B2FFB9B00C777A8 /* Registration.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31878DB11B2FFB9B00C777A8 /* Registration.xcassets */; };
+		31878DB41B300B0700C777A8 /* PIORegisterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31878DB31B300B0700C777A8 /* PIORegisterTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31878DA01B2FFA0000C777A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31878D821B2FFA0000C777A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31878D891B2FFA0000C777A8;
+			remoteInfo = DurexSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315E25361B318EF700E3CA0B /* PIOLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PIOLoginViewController.swift; sourceTree = "<group>"; };
+		31878D8A1B2FFA0000C777A8 /* DurexSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DurexSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31878D8E1B2FFA0000C777A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31878D8F1B2FFA0000C777A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31878D911B2FFA0000C777A8 /* PIORegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIORegisterViewController.swift; sourceTree = "<group>"; };
+		31878D941B2FFA0000C777A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31878D961B2FFA0000C777A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31878D991B2FFA0000C777A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		31878D9F1B2FFA0000C777A8 /* DurexSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DurexSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31878DA41B2FFA0000C777A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31878DA51B2FFA0000C777A8 /* DurexSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurexSwiftTests.swift; sourceTree = "<group>"; };
+		31878DAF1B2FFB4600C777A8 /* General.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = General.xcassets; path = ../../../StoryBoard/StoryBoard/StoryBoard/Assets/General.xcassets; sourceTree = "<group>"; };
+		31878DB11B2FFB9B00C777A8 /* Registration.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Registration.xcassets; path = ../../../StoryBoard/StoryBoard/StoryBoard/Assets/Registration.xcassets; sourceTree = "<group>"; };
+		31878DB31B300B0700C777A8 /* PIORegisterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PIORegisterTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31878D871B2FFA0000C777A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31878D9C1B2FFA0000C777A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31878D811B2FFA0000C777A8 = {
+			isa = PBXGroup;
+			children = (
+				31878D8C1B2FFA0000C777A8 /* DurexSwift */,
+				31878DA21B2FFA0000C777A8 /* DurexSwiftTests */,
+				31878D8B1B2FFA0000C777A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31878D8B1B2FFA0000C777A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31878D8A1B2FFA0000C777A8 /* DurexSwift.app */,
+				31878D9F1B2FFA0000C777A8 /* DurexSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31878D8C1B2FFA0000C777A8 /* DurexSwift */ = {
+			isa = PBXGroup;
+			children = (
+				31878D8F1B2FFA0000C777A8 /* AppDelegate.swift */,
+				31878D911B2FFA0000C777A8 /* PIORegisterViewController.swift */,
+				31878D931B2FFA0000C777A8 /* Main.storyboard */,
+				31878D961B2FFA0000C777A8 /* Images.xcassets */,
+				31878DAF1B2FFB4600C777A8 /* General.xcassets */,
+				31878DB11B2FFB9B00C777A8 /* Registration.xcassets */,
+				31878D981B2FFA0000C777A8 /* LaunchScreen.xib */,
+				31878D8D1B2FFA0000C777A8 /* Supporting Files */,
+				31878DB31B300B0700C777A8 /* PIORegisterTableViewCell.swift */,
+				315E25361B318EF700E3CA0B /* PIOLoginViewController.swift */,
+			);
+			path = DurexSwift;
+			sourceTree = "<group>";
+		};
+		31878D8D1B2FFA0000C777A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31878D8E1B2FFA0000C777A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31878DA21B2FFA0000C777A8 /* DurexSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				31878DA51B2FFA0000C777A8 /* DurexSwiftTests.swift */,
+				31878DA31B2FFA0000C777A8 /* Supporting Files */,
+			);
+			path = DurexSwiftTests;
+			sourceTree = "<group>";
+		};
+		31878DA31B2FFA0000C777A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31878DA41B2FFA0000C777A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31878D891B2FFA0000C777A8 /* DurexSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31878DA91B2FFA0000C777A8 /* Build configuration list for PBXNativeTarget "DurexSwift" */;
+			buildPhases = (
+				31878D861B2FFA0000C777A8 /* Sources */,
+				31878D871B2FFA0000C777A8 /* Frameworks */,
+				31878D881B2FFA0000C777A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DurexSwift;
+			productName = DurexSwift;
+			productReference = 31878D8A1B2FFA0000C777A8 /* DurexSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31878D9E1B2FFA0000C777A8 /* DurexSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31878DAC1B2FFA0000C777A8 /* Build configuration list for PBXNativeTarget "DurexSwiftTests" */;
+			buildPhases = (
+				31878D9B1B2FFA0000C777A8 /* Sources */,
+				31878D9C1B2FFA0000C777A8 /* Frameworks */,
+				31878D9D1B2FFA0000C777A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31878DA11B2FFA0000C777A8 /* PBXTargetDependency */,
+			);
+			name = DurexSwiftTests;
+			productName = DurexSwiftTests;
+			productReference = 31878D9F1B2FFA0000C777A8 /* DurexSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31878D821B2FFA0000C777A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Putitout;
+				TargetAttributes = {
+					31878D891B2FFA0000C777A8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					31878D9E1B2FFA0000C777A8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 31878D891B2FFA0000C777A8;
+					};
+				};
+			};
+			buildConfigurationList = 31878D851B2FFA0000C777A8 /* Build configuration list for PBXProject "DurexSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31878D811B2FFA0000C777A8;
+			productRefGroup = 31878D8B1B2FFA0000C777A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31878D891B2FFA0000C777A8 /* DurexSwift */,
+				31878D9E1B2FFA0000C777A8 /* DurexSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31878D881B2FFA0000C777A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31878D951B2FFA0000C777A8 /* Main.storyboard in Resources */,
+				31878D9A1B2FFA0000C777A8 /* LaunchScreen.xib in Resources */,
+				31878DB01B2FFB4600C777A8 /* General.xcassets in Resources */,
+				31878D971B2FFA0000C777A8 /* Images.xcassets in Resources */,
+				31878DB21B2FFB9B00C777A8 /* Registration.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31878D9D1B2FFA0000C777A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31878D861B2FFA0000C777A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31878D921B2FFA0000C777A8 /* PIORegisterViewController.swift in Sources */,
+				31878D901B2FFA0000C777A8 /* AppDelegate.swift in Sources */,
+				31878DB41B300B0700C777A8 /* PIORegisterTableViewCell.swift in Sources */,
+				315E25371B318EF700E3CA0B /* PIOLoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31878D9B1B2FFA0000C777A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31878DA61B2FFA0000C777A8 /* DurexSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31878DA11B2FFA0000C777A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31878D891B2FFA0000C777A8 /* DurexSwift */;
+			targetProxy = 31878DA01B2FFA0000C777A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31878D931B2FFA0000C777A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31878D941B2FFA0000C777A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31878D981B2FFA0000C777A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31878D991B2FFA0000C777A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31878DA71B2FFA0000C777A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31878DA81B2FFA0000C777A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31878DAA1B2FFA0000C777A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DurexSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31878DAB1B2FFA0000C777A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DurexSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31878DAD1B2FFA0000C777A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DurexSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DurexSwift.app/DurexSwift";
+			};
+			name = Debug;
+		};
+		31878DAE1B2FFA0000C777A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DurexSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DurexSwift.app/DurexSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31878D851B2FFA0000C777A8 /* Build configuration list for PBXProject "DurexSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31878DA71B2FFA0000C777A8 /* Debug */,
+				31878DA81B2FFA0000C777A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31878DA91B2FFA0000C777A8 /* Build configuration list for PBXNativeTarget "DurexSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31878DAA1B2FFA0000C777A8 /* Debug */,
+				31878DAB1B2FFA0000C777A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31878DAC1B2FFA0000C777A8 /* Build configuration list for PBXNativeTarget "DurexSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31878DAD1B2FFA0000C777A8 /* Debug */,
+				31878DAE1B2FFA0000C777A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31878D821B2FFA0000C777A8 /* Project object */;
+}
